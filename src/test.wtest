@@ -1,0 +1,21 @@
+import clientes.*
+
+describe "Testing de CLientes"{
+	
+	test "Ana Maria esta estable economicamente" {
+		assert.that(anaMaria.esEstable())
+	}
+
+	test "Ana maria no esta economicamente estable"{
+		anaMaria.cambiarEstabilidadEconomica()
+		assert.notThat(anaMaria.esEstable())
+	}
+}
+
+describe "Testing de teresa :3 " {
+	
+
+
+}
+
+
